@@ -15,14 +15,14 @@ public class family extends AppCompatActivity {
         setContentView(R.layout.word_list);
 
         ArrayList<word> familyList = new ArrayList<>();
-        familyList.add(new word("Father", "Pere"));
-        familyList.add(new word("Mother", "Mere"));
-        familyList.add(new word("Son", "Fils"));
-        familyList.add(new word("Daughter", "Fille"));
-        familyList.add(new word("Brother", "Frere"));
-        familyList.add(new word("Sister", "Soeur"));
-        familyList.add(new word("Grandmother", "Grand-mere"));
-        familyList.add(new word("Grandfather", "Grand-Pere"));
+        familyList.add(new word("Father", "Pere", R.drawable.family_father));
+        familyList.add(new word("Mother", "Mere", R.drawable.family_mother));
+        familyList.add(new word("Son", "Fils", R.drawable.family_son));
+        familyList.add(new word("Daughter", "Fille", R.drawable.family_daughter));
+        familyList.add(new word("Brother", "Frere", R.drawable.family_older_brother));
+        familyList.add(new word("Sister", "Soeur", R.drawable.family_older_sister));
+        familyList.add(new word("Grandmother", "Grand-mere", R.drawable.family_grandmother));
+        familyList.add(new word("Grandfather", "Grand-Pere", R.drawable.family_grandfather));
 
 
         wordAdapter familyAdapter = new wordAdapter(this, familyList);

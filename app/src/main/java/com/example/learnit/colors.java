@@ -15,13 +15,13 @@ public class colors extends AppCompatActivity {
         setContentView(R.layout.word_list);
 
         ArrayList<word> colorsList = new ArrayList<>();
-        colorsList.add(new word("Red", "Rouge"));
-        colorsList.add(new word("Orange", "Orange"));
-        colorsList.add(new word("Yellow", "Jaune"));
-        colorsList.add(new word("Green", "Vert"));
-        colorsList.add(new word("blue", "Bleu"));
-        colorsList.add(new word("Violet", "Violet"));
-        colorsList.add(new word("Black", "Noir"));
+        colorsList.add(new word("Red", "Rouge", R.drawable.color_red));
+        colorsList.add(new word("Orange", "Orange", R.drawable.color_dusty_yellow));
+        colorsList.add(new word("Yellow", "Jaune", R.drawable.color_mustard_yellow));
+        colorsList.add(new word("Green", "Vert", R.drawable.color_green));
+        colorsList.add(new word("Gray", "Grise", R.drawable.color_gray));
+        colorsList.add(new word("White", "Blanche", R.drawable.color_white));
+        colorsList.add(new word("Black", "Noir", R.drawable.color_black));
 
         wordAdapter colorsAdapter = new wordAdapter(this, colorsList);
         ListView colors_listview = findViewById(R.id.item_listview);
