@@ -25,7 +25,7 @@ public class numbers extends AppCompatActivity {
         numbersList.add(new word("Eight", "Huit", R.drawable.number_eight));
         numbersList.add(new word("Nine", "Nuef", R.drawable.number_nine));
         numbersList.add(new word("Ten", "Dix", R.drawable.number_ten));
-        wordAdapter numbersAdapter = new wordAdapter(this, numbersList);
+        wordAdapter numbersAdapter = new wordAdapter(this, numbersList, R.color.category_numbers_light);
         ListView numbers_listview = findViewById(R.id.item_listview);
         numbers_listview.setAdapter(numbersAdapter);
     }

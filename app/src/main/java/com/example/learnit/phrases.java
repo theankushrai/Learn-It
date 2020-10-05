@@ -24,7 +24,7 @@ public class phrases extends AppCompatActivity {
         phrasesList.add(new word("I love you", "je t'aime"));
 
 
-        wordAdapter phrasesAdapter = new wordAdapter(this, phrasesList);
+        wordAdapter phrasesAdapter = new wordAdapter(this, phrasesList, R.color.category_phrases_light);
         ListView phrases_listview = findViewById(R.id.item_listview);
         phrases_listview.setAdapter(phrasesAdapter);
     }

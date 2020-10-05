@@ -5,6 +5,27 @@
         <item name="colorPrimary">@color/primary_color</item>
         <item name="colorPrimaryDark">@color/primary_dark_color</item>
     </style>
+
+    <style name="Theme_number" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/category_numbers</item>
+        <item name="colorPrimaryDark">@color/category_numbers_light</item>
+    </style>
+
+    <style name="Theme_family" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/category_family</item>
+        <item name="colorPrimaryDark">@color/category_family_light</item>
+    </style>
+
+    <style name="Theme_colors" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/category_colors</item>
+        <item name="colorPrimaryDark">@color/category_colors_light</item>
+    </style>
+
+    <style name="Theme_phrases" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/category_phrases</item>
+        <item name="colorPrimaryDark">@color/category_phrases_light</item>
+    </style>
+
     <style name="CategoryStyle">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">@dimen/list_item_height</item>

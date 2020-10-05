@@ -23,7 +23,7 @@ public class colors extends AppCompatActivity {
         colorsList.add(new word("White", "Blanche", R.drawable.color_white));
         colorsList.add(new word("Black", "Noir", R.drawable.color_black));
 
-        wordAdapter colorsAdapter = new wordAdapter(this, colorsList);
+        wordAdapter colorsAdapter = new wordAdapter(this, colorsList, R.color.category_colors_light);
         ListView colors_listview = findViewById(R.id.item_listview);
         colors_listview.setAdapter(colorsAdapter);
     }
