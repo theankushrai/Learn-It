@@ -38,7 +38,7 @@ public class wordAdapter extends ArrayAdapter<word> {
         TextView frenchTextView = listItemView.findViewById(R.id.french_language_textview);
         frenchTextView.setText(currentWord.getFrenchTranslation());
 
-        if (currentWord.getImageResourceID() != 8) {
+        if (currentWord.getImageResourceID() != 0) {
             ImageView item_imageview = listItemView.findViewById(R.id.item_imageview);
             item_imageview.setImageResource(currentWord.getImageResourceID());
         }
