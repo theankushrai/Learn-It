@@ -12,23 +12,42 @@
         <activity
             android:name=".phrases"
             android:label="@string/category_phrases"
-            android:theme="@style/Theme_phrases"></activity>
+            android:theme="@style/Theme_phrases" >
+            <intent-filter>
+                <action android:name="com\example\learnit\phrases.kt" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
         <activity
             android:name=".family"
             android:label="@string/category_family"
-            android:theme="@style/Theme_family" />
+            android:theme="@style/Theme_family" >
+            <intent-filter>
+                <action android:name="com\example\learnit\family.kt" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
         <activity
             android:name=".numbers"
             android:label="@string/category_numbers"
-            android:theme="@style/Theme_number" />
+            android:theme="@style/Theme_number" >
+            <intent-filter>
+                <action android:name="com\example\learnit\numbers.kt" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
         <activity
             android:name=".colors"
             android:label="@string/category_colors"
-            android:theme="@style/Theme_colors" />
+            android:theme="@style/Theme_colors" >
+            <intent-filter>
+                <action android:name="com\example\learnit\colors.kt" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
